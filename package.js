@@ -6,7 +6,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   configurePackage(api);
-  api.export(['Counts']);
+  api.export(['Counter']);
 });
 
 Package.on_test(function(api) {
