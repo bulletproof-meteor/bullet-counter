@@ -13,7 +13,8 @@ Package.on_test(function(api) {
   configurePackage(api);
   api.use([
     'tinytest',
-    'random'
+    'random',
+    'ddp'
   ], ['client', 'server']);
 
   api.addFiles('test/counters.js', 'server');
